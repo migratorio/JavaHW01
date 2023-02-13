@@ -41,7 +41,7 @@ public class task04_01 {
     }
 
     public static void main(String[] args) {
-        String[] stringArray2 = {"asc", "aba", "aba"};
+        String[] stringArray2 = {"ksc", "aba", "aba"};
         System.out.println(findCommonPrefix(stringArray2));
     }
 }

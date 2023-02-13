@@ -9,10 +9,8 @@ public class task05 {
 
     public static boolean isLeapYear(int year) {
         GregorianCalendar calendar = new GregorianCalendar(year, Calendar.FEBRUARY, 29); //Вводим дату 29 февраля
-        calendar.get(Calendar.MONTH);
         if(calendar.get(Calendar.MONTH) == 2) return false;  // если возвращается МАРТ, год не високосный
         else return true;
-        // System.out.println(calendar.getTime());
     }
 
     public static void main(String[] args) {
